@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap');
+body{
+  background-color: black;
+}
+iframe{
+  border-radius: 10px;
+  border: solid;
+}
+#instagram{
+    position: relative;
+    left: 0.1px;
+    bottom: 13px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#instagram:hover{
+color: red;
+}
+#tiktok{
+    position: relative;
+    bottom: 40px;
+    right: 68px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.moidiv{
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+#tiktok:hover{
+color: red;
+}
+.reseaux{
+    text-align: center;
+    border-radius: 8px;
+    width: 140px;
+    height: 10px;
+    background-color: #ccc;
+    position: absolute;
+    top: 5px;
+    left: 0.1px;
+    transition: 0.3s;
+}
+.reseaux:hover{
+    height: 100px;
+}
+#titre-menu-der{
+  display: block;
+    position: relative;
+    bottom: 29px;
+    color: purple;
+}
+#titre-menu-der2{
+  display: none;
+    position: relative;
+    bottom: 29px;
+    color: purple;
+}
+#buttonstyle{
+  position: absolute;
+  top: 0.1px;
+  left: 145px;
+  border: 2px solid grey;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#buttonstyle2{
+  border: 2px  solid grey;
+  position: absolute;
+  top: 0.1px;
+  left: 195px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#alorslazone{
+    position: absolute;
+    left: 0.000000001px;
+    top: 33px;
+    color: red;
+    background-image: url('https://zupimages.net/up/23/35/tz3v.jpg');
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+}
+#moi{
+  position: absolute;
+  top: 1180px;
+  left: 480px;
+  background-color: rgba(500, 0, 0, 0.6);
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-style: italic;
+  color: aqua;
+  }
+#text1{
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+#text2{
+    font-family: "Pacifico", cursive;
+  color: white;
+}
+#text3{
+    font-family: "Pacifico", cursive;
+  color: white;
+}
+p{
+  font-style: italic;
+  font-weight: bold;
+}
+#titre12{
+    display: block;
+  text-align: center;
+  font-size: 30px;
+  color: purple;
+  font-family: 'Rock 3D', cursive;
+}
+#titre11{
+    display: none;
+}
+.premier-du-dexieme{
+  position: absolute;
+  right: 350px;
+  top: 120px;
+  text-align: center;
+  width: 240px;
+}
+.dexieme-du-dexieme{
+  position: relative;
+  bottom: 20px;
+  width: 240px;
+}
+.helloworld{
+  position: absolute;
+  left: 350px;
+  top: 120px;
+  text-align: center;
+  width: 240px;
+}
+.sixieme-du-dexieme{
+  position: relative;
+  bottom: 38px;
+  width: 240px;
+}
+.tout{
+    background: linear-gradient(blue, red);
+    height: 1000px;
+    width: 100%;
+    border-radius: 30px;
+}
+div{
+  padding-top: 20px;
+}
+#premiere-musique{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 12px 15px 12px black;
+}
+#deuxieme-musique{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 12px 15px 12px black;
+}
+#troixieme-musique{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 12px 15px 12px black;
+}
+#bouton-tiktok{
+  cursor: pointer;
+  position: absolute;
+  left: 0.000000001px;
+  top: 3px;
+  background: linear-gradient(blue, purple);
+  color: red;
+  width: 120px;
+  height: 30px;
+}
+#quatrieme-musique{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 12px 15px 12px black;
+}
+#text4{
+    font-family: "Pacifico", cursive;
+  color: white;
+}
+#text5{
+    font-family: "Pacifico", cursive;
+  color: white;
+}
+#cinquieme-musique{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 12px 15px 12px black;
+}
+#text6{
+    font-family: "Pacifico", cursive;
+  color: white;
+}
+#sixieme-musique{
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 12px 15px 12px black;
+}
+#textprbouton{
+  text-align: center;
+}
+@media all and (min-width: 411px) and (max-width: 450px){
+    .tout{
+        width: 100%;
+        height: 600px;
+    }
+    .helloworld{
+        position: absolute;
+        top: 160px;
+        left: 0.1px;
+        width: 230px;
+    }
+    .premier-du-dexieme{
+        position: absolute;
+        top: 160px;
+        right: 0px;
+    }
+    #moi{
+        position: absolute;
+        left: 0.1px;
+    }
+    .moidiv{
+        display: none;
+        /*a changer parseque la div insi que se quelle contien disparait*/
+    }
+    #text1{
+        font-size: 13px;
+    }
+    #text2{
+        font-size: 13px;
+    }
+    #text3{
+        font-size: 13px;
+    }
+    #text4{
+        font-size: 13px;
+    }
+    #text5{
+        font-size: 13px;
+    }
+    #text6{
+        font-size: 13px;
+    }
+    iframe{
+        width: 160px;
+        height: 90px;
+    }
+    #titre12{
+        display: none;
+    }
+    #titre11{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        color: purple;
+        font-family: 'Rock 3D', cursive;
+    }
+    #buttonstyle{
+        display: none;
+    }
+    #buttonstyle2{
+        display: none;
+    }
+}
+@media all and (min-width: 340px) and (max-width: 400px){
+  .sixieme-du-dexieme{
+    position: relative;
+    bottom: 38px;
+    width: 160px;
+  }
+  .dexieme-du-dexieme{
+    width: 160px;
+  }
+  #titre-menu-der2{
+  display: block;
+    position: relative;
+    bottom: 29px;
+    color: purple;
+}
+#titre-menu-der{
+  display: none;
+    position: relative;
+    bottom: 29px;
+    color: purple;
+}
+    .tout{
+        position: absolute;
+        top: 130px;
+        z-index: 5px;
+        width: 100%;
+        height: 580px;
+    }
+    .premier-du-dexieme{
+        position: absolute;
+        top: 110px;
+        right: 0.1px;
+        z-index: 10px;
+        height: 590px;
+        width: 160px;
+    }
+    .helloworld{
+        position: absolute;
+        top: 110px;
+        left: 15px;
+        z-index: 10px;
+        height: 590px;
+        width: 160px;
+    }
+    #moi{
+        position: absolute;
+        left: 0.1px;
+    }
+    .moidiv{
+        position: absolute;
+        top: 0.1px;
+        display: none;
+    }
+    #text1{
+        font-size: 13px;
+    }
+    #text2{
+        font-size: 13px;
+    }
+    #text3{
+        font-size: 13px;
+    }
+    #text4{
+        font-size: 13px;
+    }
+    #text5{
+        font-size: 13px;
+    }
+    #text6{
+        font-size: 13px;
+    }
+    iframe{
+        width: 160px;
+        height: 90px;
+    }
+    #titre12{
+        display: none;
+    }
+    #titre11{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        color: purple;
+        font-family: 'Rock 3D', cursive;
+    }
+    #buttonstyle{
+        display: none;
+    }
+    #buttonstyle2{
+        display: none;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 912px){
+    .tout{
+        width: 100%;
+        height: 900px;
+    }
+    .helloworld{
+        position: absolute;
+        top: 160px;
+        left: 70px;
+        width: 230px;
+    }
+    .premier-du-dexieme{
+        position: absolute;
+        top: 160px;
+        right: 70px;
+    }
+    #moi{
+        position: absolute;
+        left: 0.1px;
+    }
+    .moidiv{
+        display: none;
+        /*a changer parseque la div insi que se quelle contien disparait*/
+    }
+    #text1{
+        font-size: 13px;
+    }
+    #text2{
+        font-size: 13px;
+    }
+    #text3{
+        font-size: 13px;
+    }
+    #text4{
+        font-size: 13px;
+    }
+    #text5{
+        font-size: 13px;
+    }
+    #text6{
+        font-size: 13px;
+    }
+    iframe{
+        width: 160px;
+        height: 90px;
+    }
+    #titre12{
+        display: none;
+    }
+    #titre11{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        color: purple;
+        font-family: 'Rock 3D', cursive;
+    }
+    #buttonstyle{
+        display: none;
+    }
+    #buttonstyle2{
+        display: none;
+    }
+}
